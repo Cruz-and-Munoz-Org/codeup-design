@@ -30,8 +30,15 @@ h6 {
 }
 
 .selectedWork {
-    max-width: 80%;
+    max-width: 60%;
     min-width: auto;
+}
+
+.theLastImage {
+    width: 65px;
+    height: 65px;
+
+
 }
 
 .ellipse {
@@ -40,6 +47,17 @@ h6 {
     border-radius: 150px;
     background-color: red;
     margin-left: 100px;
+}
+
+.ellipse-small {
+    width: 20px;
+    height: 20px;
+    border-radius: 150px;
+    background-color: red;
+    margin-left: 100px;
+    text-align: center;
+    vertical-align: center;
+    padding-bottom: 3px;
 }
 
 
@@ -57,3 +75,19 @@ h6 {
     }
 
 }
+
+@media all and (max-width: 500px) {
+    .selectedWork {
+        max-width: 80%;
+        min-width: auto;
+    }
+
+}
+
+/*@media all and (min-width: 500px) {*/
+/*    .selectedWork {*/
+/*        max-width: 60%;*/
+/*        min-width: auto;*/
+/*    }*/
+
+/*}*/
