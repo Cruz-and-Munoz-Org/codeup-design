@@ -124,10 +124,17 @@ nav{
 }
 
 @media all and (max-width: 960px) {
-    hr{
-        display:none;
+    hr {
+        display: none;
+    }
+
+    #largePage {
+        display: flex;
+        justify-content: flex-start;
     }
 }
+
+
 /*@media all and (min-width: 500px) {*/
 /*    .selectedWork {*/
 /*        max-width: 60%;*/
