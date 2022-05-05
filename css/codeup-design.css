@@ -26,6 +26,11 @@ h6 {
 
 }
 
+.featuredProject {
+    margin-left: 55px;
+    margin-top: 5px;
+}
+
 #logo {
     display: inline-block;
     width: 40px;
@@ -34,11 +39,20 @@ h6 {
     justify-content: flex-start;
 }
 
-.selectedWork {
-    max-width: 100%;
+.upperPictures {
+    max-width: 80%;
     min-width: auto;
+    /*display: flex;*/
+    /*align-content: center;*/
+    margin-left: 50px;
+    border: 6px solid lightgray;
+    }
 
+.selectedWork {
+    margin: 50px;
+    text-align: center;
 }
+
 
 .theLastImage {
     width: 65px;
@@ -63,6 +77,7 @@ nav{
     border-radius: 150px;
     background-color: red;
     margin: 10px;
+    margin-bottom: 10px;
     text-align: center;
     line-height: 60px;
     color: var(--white-color);
@@ -75,7 +90,6 @@ nav{
     width: 20px;
     height: 20px;
     border-radius: 150px;
-    background-color: red;
     text-align: center;
     line-height: 22px;
     font-weight: bold;
