@@ -5,12 +5,10 @@
     --green-color: #7CB06C;
     --white-color: #F0F0F0;
     --grey-color: #E6E6E6;
-
 }
 * {
     box-sizing: border-box;
     margin: 0;
-
 }
 body{
 
@@ -23,7 +21,6 @@ h1, h2, h3 {
 h6 {
     font-family: 'Abel', sans-serif;
     text-align: left;
-
 }
 
 .featuredProject {
@@ -57,21 +54,15 @@ h6 {
 .theLastImage {
     width: 65px;
     height: 65px;
-
-
 }
-p {
 
-}
 nav{
     width: 100%;
     display: inline-block;
     background-color: var(--grey-color);
 }
 
-
 .ellipse {
-
     width: 70px;
     height: 70px;
     border-radius: 150px;
@@ -110,9 +101,7 @@ nav{
 @media all and (max-width: 500px) {
     #largeScreen {
         display: none;
-
     }
-
 }
 
 @media all and (max-width: 500px) {
@@ -120,19 +109,19 @@ nav{
         max-width: 80%;
         min-width: auto;
     }
-
 }
 
 @media all and (max-width: 960px) {
     hr {
         display: none;
     }
-
-    #largePage {
-        display: flex;
-        justify-content: flex-start;
-    }
 }
+
+/*    #largePage {*/
+/*        display: flex;*/
+/*        justify-content: flex-start;*/
+/*    }*/
+/*}*/
 
 
 /*@media all and (min-width: 500px) {*/
